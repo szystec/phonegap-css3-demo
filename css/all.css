@@ -136,6 +136,8 @@ body {
   font-family: DroidSans;
   background-color: #2d2868;
 }
+
+
 body:after {
   display: none;
   content: url(../img/AZlogo.png) url(../img/spiral.png);
