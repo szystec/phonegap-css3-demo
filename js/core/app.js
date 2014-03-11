@@ -19,6 +19,8 @@ App.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'templates/Transitions.html'
         }).when("/about", {
             templateUrl: 'templates/About.html'
+        }).when("/imagepreload", {
+            templateUrl: 'templates/ImagePreload.html'
         }).otherwise({
             redirectTo: '/'
         })

@@ -24,6 +24,11 @@ body {
   background-color: @color-purple;
 }
 
+body:after {
+  display: none;
+  content: url(../img/AZlogo.png);
+}
+
 #wrapper {
   min-height: 100%;
 }
@@ -40,7 +45,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  border-bottom: 2*@_1px solid rgba(255,255,255,0.8);
+  border-bottom: 2*@_1px solid rgba(255, 255, 255, 0.8);
 
   .button, .title {
     height: @navbar-height;
@@ -53,7 +58,7 @@ body {
 
   .button.home {
     margin-right: 0;
-    border-left: 2*@_1px solid rgba(255,255,255,0.8);
+    border-left: 2*@_1px solid rgba(255, 255, 255, 0.8);
     float: right;
   }
 
@@ -62,7 +67,7 @@ body {
     color: @color-blue2;
     font-size: 1.5rem;
     font-family: DroidSansBold;
-    text-shadow: @_1px @_1px @_1px rgba(255,255,255,0.2);
+    text-shadow: @_1px @_1px @_1px rgba(255, 255, 255, 0.2);
     padding-right: 0;
   }
 }

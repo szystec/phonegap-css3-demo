@@ -92,7 +92,7 @@
   font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
   font-size: 1.1rem;
 
-  .line{
+  .line {
     padding-left: 1rem;
     text-indent: -1em;
   }
@@ -103,6 +103,22 @@
   .prop-value {
     color: rgb(57, 127, 57);
   }
+
+  .selector-wrapper {
+    color: rgb(0, 0, 255);
+    padding: 0 1rem;
+    .selector {
+      text-indent: -1em;
+    }
+  }
+
+  &.wrapped {
+    padding: 1rem;
+    background-color: @color-light-gray;
+    width: @centered-main-width;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .kit-link {
@@ -112,5 +128,11 @@
 }
 
 .kit-nobr {
-  white-space:nowrap;
+  white-space: nowrap;
+}
+
+.kit-tip {
+  color: @color-blue4;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
 }

@@ -86,6 +86,20 @@
 .kit-css-editor .prop-value {
   color: #397f39;
 }
+.kit-css-editor .selector-wrapper {
+  color: #0000ff;
+  padding: 0 1rem;
+}
+.kit-css-editor .selector-wrapper .selector {
+  text-indent: -1em;
+}
+.kit-css-editor.wrapped {
+  padding: 1rem;
+  background-color: #e1e2e9;
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+}
 .kit-link {
   font-family: DroidSansBold;
   text-decoration: underline;
@@ -93,6 +107,11 @@
 }
 .kit-nobr {
   white-space: nowrap;
+}
+.kit-tip {
+  color: #0e112a;
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
 }
 html {
   display: block;
@@ -116,6 +135,10 @@ body {
   position: relative;
   font-family: DroidSans;
   background-color: #2d2868;
+}
+body:after {
+  display: none;
+  content: url(../img/AZlogo.png);
 }
 #wrapper {
   min-height: 100%;
@@ -282,10 +305,6 @@ body {
   margin-bottom: 1rem;
   color: #0e112a;
 }
-.GradientBorder .gr-border .tip {
-  font-size: 1.2rem;
-  margin: 0.5rem 0.5;
-}
 .GradientBorder .bg-image {
   background-image: linear-gradient(#227d58, transparent), linear-gradient(transparent, #eb5b4c);
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#227d58), to(#eb5b4c));
@@ -346,6 +365,7 @@ body {
   background: linear-gradient(135deg, #227d58 0%, #eb5b4c 100%);
 }
 .Keyframes .spiral {
+  margin-top: 1rem;
   width: 19rem;
   height: 18rem;
   margin-left: auto;
@@ -366,7 +386,7 @@ body {
 }
 .Transitions .title {
   text-align: center;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
 }
 .Transitions .progress-bar {
   background-color: #e1e2e9;
@@ -412,4 +432,14 @@ body {
 }
 .About .wrapper .blog-link {
   text-shadow: 0 0 0.2rem rgba(255, 255, 255, 0.3);
+}
+.ImagePreload .logo {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/AZlogo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 15rem;
+  height: 6rem;
 }
