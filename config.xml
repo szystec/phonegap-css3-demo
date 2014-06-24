@@ -7,7 +7,7 @@
     <author email="alex.a.zhuk@gmail.com" href="http://www.alex-zhuk.com">
         Alexandr Zhuk
     </author>
-    <preference name="phonegap-version" value="3.5.0" />
+    <preference name="phonegap-version" value="3.4.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
     <preference name="orientation" value="portrait" />
