@@ -64,13 +64,19 @@
   }
 }
 
-.kit-dark-blue-button {
-  .kit-title-text;
-  .kit-active;
+.kit-dark-blue-button-not-active{
   display: inline-block;
   padding: 1rem;
   background-color: @color-blue4;
+  .kit-title-text;
 }
+
+.kit-dark-blue-button {
+  .kit-dark-blue-button-not-active;
+  .kit-active;
+}
+
+
 
 .kit-dark-blue-label {
   .kit-title-text;

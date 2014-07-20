@@ -1,7 +1,7 @@
 App.controller('Cube', ['$scope', function ($scope) {
-    $scope.cube_count = [0];
+    $scope.cubeCount = [0];
     $scope.addCube = function() {
-        $scope.cube_count.push($scope.cube_count.length);
+        $scope.cubeCount.push($scope.cubeCount.length);
     }
 }
 ]);

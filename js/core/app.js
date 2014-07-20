@@ -16,11 +16,14 @@ App.config(['$routeProvider', function ($routeProvider) {
         }).when("/keyframes", {
             templateUrl: 'templates/Keyframes.html'
         }).when("/transitions", {
-            templateUrl: 'templates/Transitions.html'
+            templateUrl: 'templates/Transitions.html',
+            controller: 'Transitions'
         }).when("/about", {
             templateUrl: 'templates/About.html'
         }).when("/imagepreload", {
             templateUrl: 'templates/ImagePreload.html'
+        }).when("/hoveractive", {
+            templateUrl: 'templates/HoverActive.html'
         }).otherwise({
             redirectTo: '/'
         })

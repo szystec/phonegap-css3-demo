@@ -46,13 +46,21 @@
 .kit-dropdown-button.closed .content {
   display: none;
 }
-.kit-dark-blue-button {
-  color: white;
-  text-transform: uppercase;
-  font-size: 1.4rem;
+.kit-dark-blue-button-not-active {
   display: inline-block;
   padding: 1rem;
   background-color: #0e112a;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+}
+.kit-dark-blue-button {
+  display: inline-block;
+  padding: 1rem;
+  background-color: #0e112a;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
 }
 .kit-dark-blue-button:active {
   background-color: #35b5eb;
@@ -404,7 +412,7 @@ body:after {
   background-color: #0e112a;
   width: 0;
 }
-.Transitions .progress-bar:hover > div {
+.Transitions .progress-bar.transit > div {
   -webkit-transition: width 2s ease-out;
   width: 100%;
 }
@@ -443,4 +451,15 @@ body:after {
   background-repeat: no-repeat;
   width: 15rem;
   height: 6rem;
+}
+.HoverActive .kit-dark-blue-button,
+.HoverActive .kit-dark-blue-button-not-active {
+  width: 86%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 1rem;
+}
+.HoverActive .kit-dark-blue-button-not-active.ha-hover:hover {
+  background-color: #35b5eb;
 }
