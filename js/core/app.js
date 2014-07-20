@@ -24,6 +24,10 @@ App.config(['$routeProvider', function ($routeProvider) {
             templateUrl: 'templates/ImagePreload.html'
         }).when("/hoveractive", {
             templateUrl: 'templates/HoverActive.html'
+        }).when("/inputfixedheader", {
+            templateUrl: 'templates/InputFixedHeader.html'
+        }).when("/overflowscroll", {
+            templateUrl: 'templates/OverflowScroll.html'
         }).otherwise({
             redirectTo: '/'
         })

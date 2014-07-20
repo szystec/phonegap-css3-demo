@@ -121,6 +121,19 @@
   font-size: 1.2rem;
   margin: 0.5rem 0;
 }
+.kit-text-input {
+  background-color: white;
+  color: #b3b3b3;
+  padding: 1.2rem 1.5rem;
+  border-top: 0.1rem solid #808080;
+  border-width: 0.1rem 0;
+  font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+  width: 100%;
+  margin: 0;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
 html {
   display: block;
   height: 100%;
@@ -462,4 +475,22 @@ body:after {
 }
 .HoverActive .kit-dark-blue-button-not-active.ha-hover:hover {
   background-color: #35b5eb;
+}
+.InputFixedHeader input {
+  margin-top: 1rem;
+}
+.OverflowScroll .list-wrapper {
+  margin-top: 2rem;
+  overflow: scroll;
+  width: 86%;
+  height: 14rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #3f67c0;
+}
+.OverflowScroll .list-wrapper li {
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  text-align: center;
 }
